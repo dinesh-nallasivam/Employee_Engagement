@@ -1,0 +1,138 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Employee {
+  id            Int          @id @default(autoincrement())
+  email         String       @unique
+  name          String
+  password      String
+  department    String
+  team          String
+  image         String?
+  role          Role         @default(USER) 
+  progress      CourseProgress[]
+  feedbacks     Feedback[]
+  quizResults   QuizResult[]
+}
+
+enum Role {
+  USER
+  ADMIN
+}
+
+model Course {
+  id          Int      @id @default(autoincrement())
+  title       String
+  description String
+  startedAt   DateTime  @default(now())
+  totalTimeComplete   String
+  totalChapter Int
+  totalQuiz   Int
+  image       String?
+  chapters    Chapter[]
+  progress    CourseProgress[]
+  feedback    Feedback[]
+  feedbackQuestion   FeedbackQuestion[]
+}
+
+model Chapter {
+  id          Int      @id @default(autoincrement())
+  title       String
+  content     String
+  course      Course   @relation(fields: [courseId], references: [id])
+  courseId    Int   
+  totalTimeComplete   String
+  quizzes     Quiz[] 
+}
+
+model Quiz {
+  id          Int      @id @default(autoincrement())
+  title       String
+  chapter     Chapter  @relation(fields: [chapterId], references: [id])
+  chapterId   Int
+  totalTimeComplete String
+  totalMarks  Int
+  totalQuestion Int       
+  questions   Question[]
+  quizResults QuizResult[]
+}
+
+model Question {
+  id          Int      @id @default(autoincrement())
+  question    String
+  mark        Int
+  quiz        Quiz     @relation(fields: [quizId], references: [id])
+  quizId      Int      
+  options     Option[]
+}
+
+model Option {
+  id          Int      @id @default(autoincrement())
+  text        String
+  isCorrect   Boolean  
+  question    Question @relation(fields: [questionId], references: [id])
+  questionId  Int     
+}
+
+model CourseProgress {
+  id          Int      @id @default(autoincrement())
+  employee    Employee @relation(fields: [employeeId], references: [id])
+  employeeId  Int      
+  course      Course   @relation(fields: [courseId], references: [id])
+  courseId    Int      
+  progress    Float
+  completedChapters Int
+  timeSpent   Int      @default(0)
+  status      String    
+  startedAt   DateTime
+  updatedAt   DateTime
+}
+
+model QuizResult {
+  id          Int      @id @default(autoincrement())
+  employee    Employee @relation(fields: [employeeId], references: [id])
+  employeeId  Int      
+  quiz        Quiz     @relation(fields: [quizId], references: [id])
+  quizId      Int      
+  score       Int      
+  completedAt DateTime
+}
+
+model Feedback {
+  id          Int      @id @default(autoincrement())
+  employee    Employee @relation(fields: [employeeId], references: [id])
+  employeeId  Int      
+  course      Course   @relation(fields: [courseId], references: [id])
+  courseId    Int      
+  submittedAt DateTime 
+  responses   FeedbackResponse[]
+}
+
+model FeedbackQuestion {
+  id          Int      @id @default(autoincrement())
+  question    String
+  course      Course   @relation(fields: [courseId], references: [id])
+  courseId    Int   
+  feedbackResponses FeedbackResponse[]
+}
+
+model FeedbackResponse {
+  id                Int                @id @default(autoincrement())
+  feedback          Feedback           @relation(fields: [feedbackId], references: [id])
+  feedbackId        Int               
+  feedbackQuestion  FeedbackQuestion   @relation(fields: [feedbackQuestionId], references: [id])
+  feedbackQuestionId Int              
+  response          Int            
+}

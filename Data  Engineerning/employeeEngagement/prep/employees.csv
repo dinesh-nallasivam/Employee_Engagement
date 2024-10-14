@@ -1,0 +1,101 @@
+department,,id,email,name,department,team
+Business Analysis,22,23,chandlernathaniel@haynes.com,Laura Archer,Business Analysis,hotel
+Business Analysis,23,24,donna72@garcia-decker.net,Amy Powers,Business Analysis,bed
+Business Analysis,31,32,wmartin@gmail.com,Diane Shannon,Business Analysis,skill
+Business Analysis,35,36,uherman@cohen.com,Samuel Burton,Business Analysis,result
+Business Analysis,66,67,williswilliam@hotmail.com,Janice Russell,Business Analysis,common
+Business Analysis,76,77,kelly33@yahoo.com,Stephanie Sanders,Business Analysis,choose
+Cloud Computing,46,47,robert97@yahoo.com,Kaylee Harrington,Cloud Computing,crime
+Cloud Computing,53,54,scottmichelle@hotmail.com,Jerome Reed,Cloud Computing,six
+Cloud Computing,86,87,francislawson@chavez-smith.com,Christopher Brown,Cloud Computing,still
+Cybersecurity,30,31,diane58@gibson.info,Alexandra Allen,Cybersecurity,begin
+Cybersecurity,40,41,xdiaz@alexander.com,James Barrett,Cybersecurity,worry
+Cybersecurity,51,52,gary63@yahoo.com,Samantha Adams,Cybersecurity,you
+Cybersecurity,91,92,wrightjustin@brown.net,Christopher Adams,Cybersecurity,resource
+Data Science,7,8,asharp@patton.com,Karla Turner,Data Science,sister
+Data Science,32,33,mary76@gmail.com,Robert Reynolds,Data Science,economic
+Data Science,41,42,glogan@sandoval.com,John Fisher,Data Science,simply
+Data Science,61,62,jennifer20@gmail.com,Ronald Johnson,Data Science,south
+Data Science,81,82,ygonzales@hotmail.com,Kevin Moore,Data Science,nice
+Data Science,83,84,powellmelissa@gmail.com,Alfred Olson,Data Science,stock
+Database USERistration,4,5,sullivanmatthew@hamilton.com,Dustin Valenzuela,Database USERistration,table
+Database USERistration,21,22,scott87@gmail.com,Deanna Graham,Database USERistration,story
+Database USERistration,25,26,davidcook@hotmail.com,Michael Houston,Database USERistration,yes
+Database USERistration,58,59,rodriguezbrian@mcclure.com,Amanda Mclaughlin,Database USERistration,clearly
+Database USERistration,63,64,djames@hotmail.com,Michael Boyd,Database USERistration,law
+Database USERistration,73,74,icalderon@rivera.com,Travis Richards,Database USERistration,before
+Database USERistration,74,75,susanwang@olson.org,Samantha Hart,Database USERistration,evidence
+DevOps,27,28,banderson@vang-chapman.com,Matthew Acevedo,DevOps,race
+DevOps,36,37,jessica28@adams-bell.com,Troy Kelley,DevOps,woman
+DevOps,79,80,bryanttammy@yahoo.com,Nicholas Ramirez,DevOps,cover
+Enterprise Architecture,33,34,cookthomas@yahoo.com,Jack Kirby,Enterprise Architecture,traditional
+Enterprise Architecture,38,39,ewilkins@miller-stewart.com,James Drake,Enterprise Architecture,maybe
+Enterprise Architecture,55,56,tbanks@johnson.net,Kevin Spencer,Enterprise Architecture,defense
+Enterprise Architecture,59,60,maldonadojorge@hotmail.com,Brandon Black,Enterprise Architecture,hit
+Enterprise Architecture,90,91,maria81@brown-perez.info,Lori Howell,Enterprise Architecture,money
+IT Compliance and Governance,60,61,castroricardo@hotmail.com,Teresa Thornton,IT Compliance and Governance,traditional
+IT Compliance and Governance,80,81,bethpeters@gmail.com,Holly Cole,IT Compliance and Governance,wear
+Information Technology (IT) Support,1,2,moorekathleen@hotmail.com,Bridget Clark,Information Technology (IT) Support,who
+Information Technology (IT) Support,17,18,josephpierce@hotmail.com,Kaitlin Wallace,Information Technology (IT) Support,black
+Information Technology (IT) Support,20,21,dorothy13@smith.com,Kiara Johnson,Information Technology (IT) Support,quickly
+Information Technology (IT) Support,45,46,tamarasmith@gmail.com,Margaret Brown,Information Technology (IT) Support,amount
+Information Technology (IT) Support,75,76,farrellrobert@hotmail.com,Susan Palmer,Information Technology (IT) Support,score
+Information Technology (IT) Support,85,86,keith03@smith.org,Dawn Lloyd,Information Technology (IT) Support,others
+Infrastructure Management,12,13,hfrazier@yahoo.com,Austin Buchanan,Infrastructure Management,property
+Infrastructure Management,13,14,timothyhenderson@smith.org,Amber Garrett,Infrastructure Management,he
+Infrastructure Management,49,50,dillonanthony@herring.com,Lauren Blair,Infrastructure Management,couple
+Infrastructure Management,67,68,pgarcia@henderson.com,Sarah Gonzalez,Infrastructure Management,fish
+Infrastructure Management,82,83,brittany46@hotmail.com,Edward Snyder,Infrastructure Management,over
+Network Engineering,2,3,ryanbanks@hartman.com,Samantha Smith,Network Engineering,officer
+Network Engineering,19,20,brusso@hotmail.com,Jimmy Nicholson,Network Engineering,nice
+Network Engineering,24,25,christophercollins@yahoo.com,Zoe Martin,Network Engineering,debate
+Network Engineering,37,38,tylerharris@jackson-carpenter.com,Eric Pittman,Network Engineering,keep
+Network Engineering,96,97,vbaker@hotmail.com,Brian Rose,Network Engineering,difficult
+Product Management,14,15,hendersonronald@hotmail.com,John Rodriguez,Product Management,know
+Product Management,34,35,vmay@yahoo.com,Cathy Anderson,Product Management,free
+Project Management,8,9,juanfranklin@gmail.com,Andrew Stafford,Project Management,direction
+Project Management,26,27,marissa07@gmail.com,Sarah Stuart,Project Management,throughout
+Project Management,47,48,parkashley@mooney.com,Jodi Parker,Project Management,low
+Project Management,50,51,tammy42@yahoo.com,Mary Cole,Project Management,garden
+Quality Assurance (QA),5,6,weaverjose@lang.com,Pamela Fields,Quality Assurance (QA),name
+Quality Assurance (QA),29,30,jamie27@yahoo.com,Stephanie Simmons,Quality Assurance (QA),sign
+Quality Assurance (QA),42,43,ricemichelle@gmail.com,Lori Patterson,Quality Assurance (QA),consider
+Quality Assurance (QA),64,65,dawn74@hotmail.com,Amber Kennedy,Quality Assurance (QA),fish
+Quality Assurance (QA),93,94,mark36@anderson.net,Shelby Campbell,Quality Assurance (QA),above
+Quality Assurance (QA),98,99,olopez@griffin.com,Sara Hahn,Quality Assurance (QA),also
+Research and Development (R&D),69,70,johnsonyolanda@garrison.com,Travis Brewer,Research and Development (R&D),energy
+Research and Development (R&D),70,71,owencheryl@nguyen-randall.com,Terry Bryant,Research and Development (R&D),issue
+Research and Development (R&D),84,85,johnsoncynthia@david.com,Ricardo Medina,Research and Development (R&D),still
+Software Development,6,7,tfreeman@yahoo.com,Ashley Brewer,Software Development,finish
+Software Development,11,12,robert17@yahoo.com,Kim Blanchard,Software Development,against
+Software Development,56,57,james18@preston-scott.info,David Bright,Software Development,arrive
+Systems USERistration,0,1,james67@gmail.com,Paul Hopkins,Systems USERistration,important
+Systems USERistration,15,16,pmckinney@pittman-smith.com,Penny Zamora,Systems USERistration,either
+Systems USERistration,28,29,sally79@gmail.com,Tiffany Ibarra,Systems USERistration,nation
+Systems USERistration,48,49,fschwartz@gmail.com,Kathleen Mckenzie,Systems USERistration,table
+Systems USERistration,65,66,emilymiller@brown.net,Scott Lee,Systems USERistration,class
+Systems USERistration,88,89,xyoung@gmail.com,Steven Smith,Systems USERistration,leave
+Systems USERistration,89,90,griffinjoy@lane.com,Jane Medina,Systems USERistration,least
+Systems USERistration,94,95,montescaroline@arias-alvarez.com,Paul Donaldson,Systems USERistration,interest
+Systems USERistration,95,96,samuel64@hotmail.com,Valerie Friedman,Systems USERistration,someone
+Technical Support,9,10,holly10@gmail.com,Mikayla Calhoun,Technical Support,modern
+Technical Support,16,17,rogersandrew@hotmail.com,Samantha Bailey,Technical Support,college
+Technical Support,39,40,thomaschristopher@yahoo.com,Laura Smith,Technical Support,wear
+Technical Support,62,63,sergio27@washington.info,Richard Stewart,Technical Support,edge
+Technical Support,68,69,gregory44@yahoo.com,Kevin Rivers,Technical Support,about
+Technical Support,72,73,gary10@ray.com,Cynthia Ramos,Technical Support,himself
+Training and Development,3,4,justinblair@yahoo.com,Scott Martin,Training and Development,blue
+Training and Development,18,19,michael22@yahoo.com,Jessica Preston,Training and Development,theory
+Training and Development,52,53,calebjennings@yahoo.com,Dr. Dana Taylor,Training and Development,price
+Training and Development,57,58,lcurtis@yahoo.com,Sara Price,Training and Development,how
+Training and Development,71,72,jessicaespinoza@garcia.com,Karen Hall,Training and Development,set
+Training and Development,92,93,robinsonjacob@hotmail.com,Angela Evans,Training and Development,tax
+User Experience (UX) Design,10,11,xharris@cisneros.com,Sharon Smith,User Experience (UX) Design,name
+User Experience (UX) Design,54,55,kristenfox@lynch.com,Thomas Adams,User Experience (UX) Design,key
+User Experience (UX) Design,77,78,rita10@hall.org,Kyle Phillips,User Experience (UX) Design,color
+User Experience (UX) Design,99,100,martinnicole@hotmail.com,Andrea Swanson,User Experience (UX) Design,wide
+User Interface (UI) Design,43,44,jhudson@yahoo.com,Carmen Kelley,User Interface (UI) Design,voice
+User Interface (UI) Design,44,45,andrewsmith@yahoo.com,Amanda Moore,User Interface (UI) Design,want
+User Interface (UI) Design,78,79,victoria46@best.com,Michelle Norman,User Interface (UI) Design,especially
+User Interface (UI) Design,87,88,robert71@rasmussen.info,Darin Johnson,User Interface (UI) Design,step
+User Interface (UI) Design,97,98,nathan77@gmail.com,Katie Warren,User Interface (UI) Design,meet
